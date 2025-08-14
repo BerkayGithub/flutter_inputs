@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_inputs/text_form_field_kullanimi.dart';
 import 'package:flutter_inputs/text_input_islemleri.dart';
 
 void main() {
@@ -16,7 +17,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
       ),
-      home: const TextInputIslemleri(title: 'Flutter Text Field Aygıtı'),
+      home: const TextFormFieldKullanimi(),
     );
   }
 }
