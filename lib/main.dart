@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_inputs/bazi_input_elemanlari.dart';
 import 'package:flutter_inputs/global_key_kullanimi.dart';
 import 'package:flutter_inputs/text_form_field_kullanimi.dart';
 import 'package:flutter_inputs/text_input_islemleri.dart';
@@ -18,7 +19,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
       ),
-      home: GlobalKeyKullanimi(),
+      home: BaziInputElemanlari(),
     );
   }
 }
